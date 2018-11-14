@@ -16,8 +16,8 @@
                 </div>
             </div>
             <div class="loomad-grid">
-                <a href="#"><div class="loom-1"><h2>MURI</h2></div></a>
-                <a href="#"><div class="loom"><h2>KASS</h2></div></a>
+                <a href="#" @click="openModal()"><div class="loom-1"><h2>MURI</h2></div></a>
+                <a href="#"><div class="loom-2"><h2>joosep</h2></div></a>
                 <a href="#"><div class="loom"><h2>KASS</h2></div></a>
                 <a href="#"><div class="loom"><h2>KASS</h2></div></a>
             </div>
@@ -25,13 +25,13 @@
            <button id="go-up">&#94; &Uuml;LES</button>
        </div>
    </section>
-  <div class="modal-backdrop">
+  <div class="modal-backdrop" v-if="showModal">
         <!--
 on mobile change image and info order, text first
 drop shadow for box, darker background
 -->
         <div class="profiilipopup">
-            <a class="closing" href="#"><h2>&#215;</h2></a>
+            <a class="closing" href="#" @click="closeModal()"><h2>&#215;</h2></a>
             <div class="nupud">
                 <a class="previous" href="#"><h2>&#60; eelmine</h2></a>
                 <a class="next" href="#"><h2>j&Auml;rgmine &#62;</h2></a>
@@ -89,7 +89,21 @@ drop shadow for box, darker background
 <script>
 export default {
   name: 'Loomad',
+   data() { 
+    return { 
+      showModal: false 
+    } 
+  },
+    methods: { 
+   openModal() { 
+     this.showModal = true; 
+   },
+    closeModal() {
+     this.showModal = false;
+  },
+ } 
 };
+    
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -161,15 +175,29 @@ export default {
     width: 250px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.6);
     margin-top: 10px;
 }
 .loom-1>h2 {
      width: 250px;
      padding-top: 20px;
      padding-bottom: 20px;
-     background: rgba(255, 255, 255, 0.5);
+     background: rgba(255, 255, 255, 0.6);
      margin-top: 10px;
+}
+.loom-2 {
+    background: url(https://images.unsplash.com/photo-1506160484494-d2b1d999debd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=758725217d05454551484dc0c92d3a03&auto=format&fit=crop&w=500&q=60) 50% 50% no-repeat;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+    }
+.loom-2>h2 {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
 }
       @media only screen and (max-width: 700px) {
     .filter {
