@@ -132,11 +132,7 @@
               </div>
           </div>
       </div>
-    </div>
-       <div>
-           <button id="go-up">&#94; &Uuml;LES</button>
-       </div>
-       
+    </div>  
    </section>
   </div>
 </template>

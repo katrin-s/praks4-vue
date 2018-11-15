@@ -21,9 +21,6 @@
                 <a href="#"><div class="loom"><h2>KASS</h2></div></a>
                 <a href="#"><div class="loom"><h2>KASS</h2></div></a>
             </div>
-             <div>
-           <button id="go-up">&#94; &Uuml;LES</button>
-       </div>
    </section>
   <div class="modal-backdrop" v-if="showModal">
         <!--

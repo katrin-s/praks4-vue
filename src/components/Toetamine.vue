@@ -88,11 +88,7 @@ Loomadele vee jagamine (põhiliselt koerad)<br>
 Koerte jalutamine territooriumil koos hoiupaiga puhastamisega (ehk kuudi ümbrus) - kogenud vabatahtlikele </p>
           
       </div>
-      </div>
-       <div>
-           <button id="go-up">&#94; &Uuml;LES</button>
-       </div>
-       
+      </div>  
    </section>
   </div>
 </template>

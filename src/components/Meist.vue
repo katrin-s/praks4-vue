@@ -9,9 +9,6 @@
 Kogu igapäevane töö ja loomade ravi toimub ainult tänu headele annetajatele ja toetajatele. 
      <br><br>Suur aitäh!</p>
       <img src="https://images.unsplash.com/photo-1534750554350-5d579939db38?ixlib=rb-0.3.5&s=569d671234a4d9fa951b34de681bd903&auto=format&fit=crop&w=1350&q=80" alt="Team of happy volunteers">
-       <div>
-           <button id="go-up">&#94; &Uuml;LES</button>
-       </div>
    </section>
   
   </div>

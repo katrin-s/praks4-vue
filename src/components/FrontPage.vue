@@ -12,9 +12,6 @@
        <div class="maps">
        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.6054081752854!2d26.71191935169235!3d58.34945819614565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3747db90ed05%3A0x387b666bb555e743!2sKopli+1%2C+50115+Tartu!5e0!3m2!1sen!2see!4v1540967788421" frameborder="0" width="600" height="450" style="border:0" allowfullscreen></iframe>
        </div>
-       <div>
-           <button id="go-up">&#94; &Uuml;LES</button>
-       </div>
    </section>
   </div>
 </template>
