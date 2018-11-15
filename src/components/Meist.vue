@@ -41,6 +41,14 @@ export default {
     height: auto;
     margin: auto;
     padding-top: 10px;
+    margin-bottom: 20px;
 }
+@media only screen and (max-width: 1240px) {
+    
+.meist>p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+    }
 
 </style>
