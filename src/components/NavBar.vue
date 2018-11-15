@@ -34,21 +34,20 @@
 <script>
 export default {
   name: 'NavBar',
-    data() { 
-    return { 
-      showNav: false 
-    } 
+  data() {
+    return {
+      showNav: false,
+    };
   },
-    methods: { 
-   openNav() { 
-     this.showNav = true; 
-   },
+  methods: {
+    openNav() {
+      this.showNav = true;
+    },
     closeNav() {
-     this.showNav = false;
+      this.showNav = false;
+    },
   },
- } 
 };
-    
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -159,7 +158,6 @@ nav a:hover {
     .closing h2 {
         font-size: 40px;
     }
-    
     .router-link-exact-active {
     background-color: rgba(255, 255, 255, 0);
     color: black;
@@ -167,7 +165,6 @@ nav a:hover {
     border: none;
     border-radius: 30px;
 }
-    
     }
 
 </style>
