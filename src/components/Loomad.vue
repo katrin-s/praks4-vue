@@ -86,21 +86,20 @@ drop shadow for box, darker background
 <script>
 export default {
   name: 'Loomad',
-   data() { 
-    return { 
-      showModal: false 
-    } 
+  data() {
+    return {
+      showModal: false,
+    };
   },
-    methods: { 
-   openModal() { 
-     this.showModal = true; 
-   },
+  methods: {
+    openModal() {
+      this.showModal = true;
+    },
     closeModal() {
-     this.showModal = false;
+      this.showModal = false;
+    },
   },
- } 
 };
-    
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

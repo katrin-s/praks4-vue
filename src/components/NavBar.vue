@@ -2,7 +2,7 @@
   <div class="hello">
    <header>
        <nav>
-         <img src="https://images.vexels.com/media/users/3/139889/isolated/preview/da50fec14dc402a17863b78227684335-cat-silhouette-2-by-vexels.png" alt="Varjupaiga logo">
+         <img style="cursor: pointer;" onclick="window.location='/';" src="https://images.vexels.com/media/users/3/139889/isolated/preview/da50fec14dc402a17863b78227684335-cat-silhouette-2-by-vexels.png" alt="Varjupaiga logo">
          <ul>
            <li><router-link to="/">avaleht</router-link></li><li><router-link to= "/loomad">loomad varjupaigas</router-link></li><li>
             <router-link to="/leitud">kadunud/leitud</router-link>
