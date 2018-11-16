@@ -13,7 +13,7 @@
       </nav>
       <section class="mobile" v-if="showNav">
          <ul>
-           <li><router-link to= "/loomad"><h2>loomad varjupaigas</h2></router-link></li><li>
+           <li style="cursor: pointer;" onclick="window.location='/';"><h2>avaleht</h2></li><li><router-link to= "/loomad"><h2>loomad varjupaigas</h2></router-link></li><li>
             <router-link to="/leitud"><h2>kadunud/leitud</h2></router-link>
             </li><li><router-link to="/toetamine"><h2>kuidas toetada?</h2></router-link>
             </li><li><router-link to="/meist"><h2>meist</h2></router-link>
@@ -138,10 +138,10 @@ nav a:hover {
     .mobile ul {
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 40px;
     }
     .mobile h2 {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .mobile a {
         text-decoration: none;
@@ -156,14 +156,11 @@ nav a:hover {
         margin-bottom: 4px;
 }
     .closing h2 {
-        font-size: 40px;
+        font-size: 50px;
     }
     .router-link-exact-active {
     background-color: rgba(255, 255, 255, 0);
-    color: black;
     padding: 0;
-    border: none;
-    border-radius: 30px;
 }
     }
 

@@ -6,7 +6,7 @@
        <p>Meiega saab ühendust võtta ööpäevaringselt telefonil +372 7 361 866<br>
 Kohaletulekust palume võimaluse korral ette teatada!<br>
 Asume aadressil Kopli 1, 50115 Tartu.<br>Maja kõrval on 5 parkimiskohta.<br>
-Meie juurde sõidavad bussid nr 4, 9, 11, 12, 13 ja 19. <br>Väljuda tuleb Alasi peatuses ja tulla üle Võru tänava.<br>Busside sõiduplaanid leiad <a href="http://tartu.peatus.ee" target="_blank">SIIT</a><br>
+Meie juurde sõidavad bussid nr 4, 9, 11, 12, 13 ja 19. <br>Väljuda tuleb Alasi peatuses ja tulla üle Võru tänava.<br>Busside sõiduplaanid leiad <a href="http://tartu.peatus.ee" target="_blank" class="outer-link"><strong>SIIT</strong></a><br>
 E-kirjadele vastame esimesel võimalusel, hiljemalt 3 tööpäeva jooksul: info@khk.ee
 </p>
        </div>
